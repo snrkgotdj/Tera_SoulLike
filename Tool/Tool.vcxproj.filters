@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. App">
+      <UniqueIdentifier>{6b4f05da-7c64-45a2-a390-56ae740e3ac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. MainFrm">
+      <UniqueIdentifier>{4c3566b8-b8ce-4639-8e34-23347c458459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View">
+      <UniqueIdentifier>{0b3037ff-8a8e-4211-b1b4-73db9f6b5cd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\01. GameView">
+      <UniqueIdentifier>{621140ec-9678-4f3f-b15c-eb6c9d6c4c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\02. HierachyView">
+      <UniqueIdentifier>{8da6f3c6-eac4-499f-9f8f-ff7140ea51bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\03. ComponentView">
+      <UniqueIdentifier>{dfc82a5f-d5c1-4bd7-a99b-3de82f715347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\04. ButtonView">
+      <UniqueIdentifier>{c43e16dd-f782-4374-8924-6392aacc4263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\05. DebugVIew">
+      <UniqueIdentifier>{155f7bf6-ad41-4870-9745-a79b644c024b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\03. ComponentView\ComonentDlg">
+      <UniqueIdentifier>{5da3a197-c8fd-4f98-a5cc-1dad8305dfb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\03. ComponentView\ComonentDlg\01. TransformDlg">
+      <UniqueIdentifier>{50f54def-1384-4a66-8266-62a90a669440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\03. ComponentView\ComonentDlg\03. ColliderDlg">
+      <UniqueIdentifier>{6da9d9c0-b641-4c2f-b1e4-d6c2488881b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\03. ComponentView\ComonentDlg\04. AnimatorDlg">
+      <UniqueIdentifier>{419d77a4-58c1-4246-bf59-22f96bb9a9c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\03. ComponentView\ComonentDlg\05. CCameraDlg">
+      <UniqueIdentifier>{2973e2b3-3c59-4373-bcce-1e13d6cd5771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\03. ComponentView\ComonentDlg\02. MeshRenderDlg">
+      <UniqueIdentifier>{0fbec773-7927-4e79-a83f-70531c1348bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Wnd">
+      <UniqueIdentifier>{1de83d84-3109-4eab-9924-4c081f9c6fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dialog">
+      <UniqueIdentifier>{966c9a88-d9c2-430c-9320-ff07c9896370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\03. ComponentView\ComonentDlg\06. ScriptDlg">
+      <UniqueIdentifier>{383b1f22-4d31-441b-93eb-0f53dc565e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\02. HierachyView\TreeCtrlDlg">
+      <UniqueIdentifier>{4acd0bc3-c730-4d6c-8a08-8a9017f09da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\02. HierachyView\TreeCtrlDlg\01. HierachyDlg">
+      <UniqueIdentifier>{62f9c03f-1bd2-4b30-a79f-0d24f9049084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\02. HierachyView\TreeCtrlDlg\02. ResDlg">
+      <UniqueIdentifier>{f8013176-2281-4d3f-b8c0-dbdd7aad8c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. External">
+      <UniqueIdentifier>{2e38cd4d-ba5c-483d-aca4-064154e9d512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\03. ComponentView\ComonentDlg\07. ObjectInfoDlg">
+      <UniqueIdentifier>{f535cfab-2153-4da7-87ff-960ff344daf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\03. ComponentView\ComonentDlg\08. LightDlg">
+      <UniqueIdentifier>{ed683255-a7b3-457f-8506-9addeacbd47c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dialog\00. ListDialog">
+      <UniqueIdentifier>{eeee2493-086f-4f2e-9118-04be19ead55d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dialog\01. AddAnimDlg">
+      <UniqueIdentifier>{57f3d265-e3f9-4814-8d5d-d87052147542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dialog\03. ToolDlg">
+      <UniqueIdentifier>{c60e007a-e097-46c3-b2a2-a9c1386354d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dialog\02. AddResDlg">
+      <UniqueIdentifier>{2aefe77f-ea9b-4f1b-ba04-0052cd935f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dialog\02. AddResDlg\00. AddMaterial">
+      <UniqueIdentifier>{bcc7507a-8fb5-4e3e-b9b7-06c8d9f495ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\03. ComponentView\ComonentDlg\10. TextDlg">
+      <UniqueIdentifier>{792ff057-34df-4254-b7d0-38c77234590a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\03. ComponentView\ComonentDlg\09. TerrainDlg">
+      <UniqueIdentifier>{6010fe2a-de27-4449-a57a-3af8b0a8238d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\03. ComponentView\ComonentDlg\02. MeshRenderDlg\MaterialDlg">
+      <UniqueIdentifier>{0dfff211-0c73-44de-9d13-5570f2a04903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\03. ComponentView\ComonentDlg\02. MeshRenderDlg\MaterialDlg\ShaderDlg">
+      <UniqueIdentifier>{19e62a73-0577-4a17-a08a-9d4e9f89d019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\03. ComponentView\ComonentDlg\02. MeshRenderDlg\MaterialDlg\ShaderDlg\00. IntParam">
+      <UniqueIdentifier>{50893848-fe25-43ea-9a8e-767c0110fcf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\03. ComponentView\ComonentDlg\02. MeshRenderDlg\MaterialDlg\ShaderDlg\01. FloatParam">
+      <UniqueIdentifier>{c2abdd40-a407-4486-ab91-705f50c7dbe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\03. ComponentView\ComonentDlg\02. MeshRenderDlg\MaterialDlg\ShaderDlg\02. Vec4Param">
+      <UniqueIdentifier>{8f9ddab2-eb5a-40a5-bcfc-3f3e634282a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\03. ComponentView\ComonentDlg\02. MeshRenderDlg\MaterialDlg\ShaderDlg\03. TexParam">
+      <UniqueIdentifier>{03a50328-6fa5-4581-b0a0-05a284e8b54a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. External\01. SaveLoad">
+      <UniqueIdentifier>{4328ecde-2819-44c7-905c-d71414770419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dialog\04. LayerSettingDlg">
+      <UniqueIdentifier>{18443bb7-db24-49be-baba-b6967dddc1f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\03. ComponentView\ComonentDlg\04. AnimatorDlg\Animator_2D">
+      <UniqueIdentifier>{21070212-f60f-42fb-85f1-8fd80419ce56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\03. ComponentView\ComonentDlg\04. AnimatorDlg\Animator_3D">
+      <UniqueIdentifier>{b1e51e07-0761-4d9d-aea2-cc64aeb4e4b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dialog\01. AddAnimDlg\2D">
+      <UniqueIdentifier>{86378918-dfcf-4f67-beb1-fb6c11223ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dialog\01. AddAnimDlg\3D">
+      <UniqueIdentifier>{1b76db03-c442-437b-8d7f-91a42c85896c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dialog\03. ToolDlg\00. AddGameObjectDlg">
+      <UniqueIdentifier>{5984027e-b97a-4688-a9c0-17882ca62cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View\03. ComponentView\ComonentDlg\11. TrailDlg">
+      <UniqueIdentifier>{b6b86053-7559-4605-b04c-ad126004dff7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>02. MainFrm</Filter>
+    </ClInclude>
+    <ClInclude Include="GameView.h">
+      <Filter>03. View\01. GameView</Filter>
+    </ClInclude>
+    <ClInclude Include="MySplitterWnd.h">
+      <Filter>04. Wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="HierachyView.h">
+      <Filter>03. View\02. HierachyView</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentView.h">
+      <Filter>03. View\03. ComponentView</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonView.h">
+      <Filter>03. View\04. ButtonView</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugView.h">
+      <Filter>03. View\05. DebugVIew</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformDlg.h">
+      <Filter>03. View\03. ComponentView\ComonentDlg\01. TransformDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentDlg.h">
+      <Filter>03. View\03. ComponentView\ComonentDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ListDlg.h">
+      <Filter>05. Dialog\00. ListDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ComListDlg.h">
+      <Filter>05. Dialog\00. ListDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptDlg.h">
+      <Filter>03. View\03. ComponentView\ComonentDlg\06. ScriptDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="HierachyDlg.h">
+      <Filter>03. View\02. HierachyView\TreeCtrlDlg\01. HierachyDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeCtrlDlg.h">
+      <Filter>03. View\02. HierachyView\TreeCtrlDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ResDlg.h">
+      <Filter>03. View\02. HierachyView\TreeCtrlDlg\02. ResDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>01. App</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectInfoDlg.h">
+      <Filter>03. View\03. ComponentView\ComonentDlg\07. ObjectInfoDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="LightDlg.h">
+      <Filter>03. View\03. ComponentView\ComonentDlg\08. LightDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="AddMaterial.h">
+      <Filter>05. Dialog\02. AddResDlg\00. AddMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraDlg.h">
+      <Filter>03. View\03. ComponentView\ComonentDlg\05. CCameraDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="TextDlg.h">
+      <Filter>03. View\03. ComponentView\ComonentDlg\10. TextDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainDlg.h">
+      <Filter>03. View\03. ComponentView\ComonentDlg\09. TerrainDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderDlg.h">
+      <Filter>03. View\03. ComponentView\ComonentDlg\03. ColliderDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\define_user.h">
+      <Filter>06. External</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialDlg.h">
+      <Filter>03. View\03. ComponentView\ComonentDlg\02. MeshRenderDlg\MaterialDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderDlg.h">
+      <Filter>03. View\03. ComponentView\ComonentDlg\02. MeshRenderDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderParam.h">
+      <Filter>03. View\03. ComponentView\ComonentDlg\02. MeshRenderDlg\MaterialDlg\ShaderDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="IntParamDlg.h">
+      <Filter>03. View\03. ComponentView\ComonentDlg\02. MeshRenderDlg\MaterialDlg\ShaderDlg\00. IntParam</Filter>
+    </ClInclude>
+    <ClInclude Include="TexParam.h">
+      <Filter>03. View\03. ComponentView\ComonentDlg\02. MeshRenderDlg\MaterialDlg\ShaderDlg\03. TexParam</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatParamDlg.h">
+      <Filter>03. View\03. ComponentView\ComonentDlg\02. MeshRenderDlg\MaterialDlg\ShaderDlg\01. FloatParam</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec4ParamDlg.h">
+      <Filter>03. View\03. ComponentView\ComonentDlg\02. MeshRenderDlg\MaterialDlg\ShaderDlg\02. Vec4Param</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\SaveLoadMgr.h">
+      <Filter>06. External\01. SaveLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerSettingDlg.h">
+      <Filter>05. Dialog\04. LayerSettingDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolUIScript.h">
+      <Filter>06. External</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatorDlg.h">
+      <Filter>03. View\03. ComponentView\ComonentDlg\04. AnimatorDlg\Animator_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator_3DDlg.h">
+      <Filter>03. View\03. ComponentView\ComonentDlg\04. AnimatorDlg\Animator_3D</Filter>
+    </ClInclude>
+    <ClInclude Include="AddAnimDlg.h">
+      <Filter>05. Dialog\01. AddAnimDlg\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="AddAnimation_3DDlg.h">
+      <Filter>05. Dialog\01. AddAnimDlg\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="AddGameObjectDlg.h">
+      <Filter>05. Dialog\03. ToolDlg\00. AddGameObjectDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="TrailDlg.h">
+      <Filter>03. View\03. ComponentView\ComonentDlg\11. TrailDlg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>02. MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="GameView.cpp">
+      <Filter>03. View\01. GameView</Filter>
+    </ClCompile>
+    <ClCompile Include="MySplitterWnd.cpp">
+      <Filter>04. Wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="HierachyView.cpp">
+      <Filter>03. View\02. HierachyView</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentView.cpp">
+      <Filter>03. View\03. ComponentView</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonView.cpp">
+      <Filter>03. View\04. ButtonView</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugView.cpp">
+      <Filter>03. View\05. DebugVIew</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformDlg.cpp">
+      <Filter>03. View\03. ComponentView\ComonentDlg\01. TransformDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentDlg.cpp">
+      <Filter>03. View\03. ComponentView\ComonentDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ListDlg.cpp">
+      <Filter>05. Dialog\00. ListDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ComListDlg.cpp">
+      <Filter>05. Dialog\00. ListDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptDlg.cpp">
+      <Filter>03. View\03. ComponentView\ComonentDlg\06. ScriptDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="HierachyDlg.cpp">
+      <Filter>03. View\02. HierachyView\TreeCtrlDlg\01. HierachyDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeCtrlDlg.cpp">
+      <Filter>03. View\02. HierachyView\TreeCtrlDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ResDlg.cpp">
+      <Filter>03. View\02. HierachyView\TreeCtrlDlg\02. ResDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>01. App</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectInfoDlg.cpp">
+      <Filter>03. View\03. ComponentView\ComonentDlg\07. ObjectInfoDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="LightDlg.cpp">
+      <Filter>03. View\03. ComponentView\ComonentDlg\08. LightDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="AddMaterial.cpp">
+      <Filter>05. Dialog\02. AddResDlg\00. AddMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraDlg.cpp">
+      <Filter>03. View\03. ComponentView\ComonentDlg\05. CCameraDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="TextDlg.cpp">
+      <Filter>03. View\03. ComponentView\ComonentDlg\10. TextDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainDlg.cpp">
+      <Filter>03. View\03. ComponentView\ComonentDlg\09. TerrainDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderDlg.cpp">
+      <Filter>03. View\03. ComponentView\ComonentDlg\03. ColliderDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialDlg.cpp">
+      <Filter>03. View\03. ComponentView\ComonentDlg\02. MeshRenderDlg\MaterialDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderDlg.cpp">
+      <Filter>03. View\03. ComponentView\ComonentDlg\02. MeshRenderDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderParam.cpp">
+      <Filter>03. View\03. ComponentView\ComonentDlg\02. MeshRenderDlg\MaterialDlg\ShaderDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="IntParamDlg.cpp">
+      <Filter>03. View\03. ComponentView\ComonentDlg\02. MeshRenderDlg\MaterialDlg\ShaderDlg\00. IntParam</Filter>
+    </ClCompile>
+    <ClCompile Include="TexParam.cpp">
+      <Filter>03. View\03. ComponentView\ComonentDlg\02. MeshRenderDlg\MaterialDlg\ShaderDlg\03. TexParam</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatParamDlg.cpp">
+      <Filter>03. View\03. ComponentView\ComonentDlg\02. MeshRenderDlg\MaterialDlg\ShaderDlg\01. FloatParam</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec4ParamDlg.cpp">
+      <Filter>03. View\03. ComponentView\ComonentDlg\02. MeshRenderDlg\MaterialDlg\ShaderDlg\02. Vec4Param</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool_0_Unity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool_1_Unity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\SaveLoadMgr.cpp">
+      <Filter>06. External\01. SaveLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerSettingDlg.cpp">
+      <Filter>05. Dialog\04. LayerSettingDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolUIScript.cpp">
+      <Filter>06. External</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatorDlg.cpp">
+      <Filter>03. View\03. ComponentView\ComonentDlg\04. AnimatorDlg\Animator_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator_3DDlg.cpp">
+      <Filter>03. View\03. ComponentView\ComonentDlg\04. AnimatorDlg\Animator_3D</Filter>
+    </ClCompile>
+    <ClCompile Include="AddAnimDlg.cpp">
+      <Filter>05. Dialog\01. AddAnimDlg\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="AddAnimation_3DDlg.cpp">
+      <Filter>05. Dialog\01. AddAnimDlg\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="AddGameObjectDlg.cpp">
+      <Filter>05. Dialog\03. ToolDlg\00. AddGameObjectDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="TrailDlg.cpp">
+      <Filter>03. View\03. ComponentView\ComonentDlg\11. TrailDlg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Tool.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Bin\Resources\Texture\Brush\Brush_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Bin\Resources\Texture\Brush\Brush_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Bin\Resources\Texture\Bitmap\TILE_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Bin\Resources\Texture\Bitmap\TILE_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Bin\Resources\Texture\Bitmap\TILE_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

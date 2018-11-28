@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <ItemGroup Label="ProjectConfigurations">
+        <ProjectConfiguration Include="Debug|Win32">
+            <Configuration>Debug</Configuration>
+            <Platform>Win32</Platform>
+        </ProjectConfiguration>
+        <ProjectConfiguration Include="Release|Win32">
+            <Configuration>Release</Configuration>
+            <Platform>Win32</Platform>
+        </ProjectConfiguration>
+        <ProjectConfiguration Include="Debug|x64">
+            <Configuration>Debug</Configuration>
+            <Platform>x64</Platform>
+        </ProjectConfiguration>
+        <ProjectConfiguration Include="Release|x64">
+            <Configuration>Release</Configuration>
+            <Platform>x64</Platform>
+        </ProjectConfiguration>
+        <ProjectConfiguration Include="Unity_Debug|Win32">
+            <Configuration>Unity_Debug</Configuration>
+            <Platform>Win32</Platform>
+        </ProjectConfiguration>
+        <ProjectConfiguration Include="Unity_Debug|x64">
+            <Configuration>Unity_Debug</Configuration>
+            <Platform>x64</Platform>
+        </ProjectConfiguration>
+        <ProjectConfiguration Include="Unity_Release|Win32">
+            <Configuration>Unity_Release</Configuration>
+            <Platform>Win32</Platform>
+        </ProjectConfiguration>
+        <ProjectConfiguration Include="Unity_Release|x64">
+            <Configuration>Unity_Release</Configuration>
+            <Platform>x64</Platform>
+        </ProjectConfiguration>
+    </ItemGroup>
+    <PropertyGroup Label="Globals">
+        <ProjectGuid>{34320594-F265-411E-9986-7788554869C8}</ProjectGuid>
+        <Keyword>Win32Proj</Keyword>
+        <RootNamespace>ScriptLib</RootNamespace>
+        <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+        <ProjectName>04. ScriptLib</ProjectName>
+    </PropertyGroup>
+    <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;" Label="Configuration">
+        <ConfigurationType>StaticLibrary</ConfigurationType>
+        <UseDebugLibraries>true</UseDebugLibraries>
+        <PlatformToolset>v140</PlatformToolset>
+        <CharacterSet>Unicode</CharacterSet>
+    </PropertyGroup>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;" Label="Configuration">
+        <ConfigurationType>StaticLibrary</ConfigurationType>
+        <UseDebugLibraries>true</UseDebugLibraries>
+        <PlatformToolset>v140</PlatformToolset>
+        <CharacterSet>Unicode</CharacterSet>
+    </PropertyGroup>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;" Label="Configuration">
+        <ConfigurationType>StaticLibrary</ConfigurationType>
+        <UseDebugLibraries>false</UseDebugLibraries>
+        <PlatformToolset>v140</PlatformToolset>
+        <WholeProgramOptimization>true</WholeProgramOptimization>
+        <CharacterSet>Unicode</CharacterSet>
+    </PropertyGroup>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;" Label="Configuration">
+        <ConfigurationType>StaticLibrary</ConfigurationType>
+        <UseDebugLibraries>false</UseDebugLibraries>
+        <PlatformToolset>v140</PlatformToolset>
+        <WholeProgramOptimization>true</WholeProgramOptimization>
+        <CharacterSet>Unicode</CharacterSet>
+    </PropertyGroup>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|x64&apos;" Label="Configuration">
+        <ConfigurationType>StaticLibrary</ConfigurationType>
+        <UseDebugLibraries>true</UseDebugLibraries>
+        <PlatformToolset>v140</PlatformToolset>
+        <CharacterSet>Unicode</CharacterSet>
+    </PropertyGroup>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|x64&apos;" Label="Configuration">
+        <ConfigurationType>StaticLibrary</ConfigurationType>
+        <UseDebugLibraries>true</UseDebugLibraries>
+        <PlatformToolset>v140</PlatformToolset>
+        <CharacterSet>Unicode</CharacterSet>
+    </PropertyGroup>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;" Label="Configuration">
+        <ConfigurationType>StaticLibrary</ConfigurationType>
+        <UseDebugLibraries>false</UseDebugLibraries>
+        <PlatformToolset>v140</PlatformToolset>
+        <WholeProgramOptimization>true</WholeProgramOptimization>
+        <CharacterSet>Unicode</CharacterSet>
+    </PropertyGroup>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|x64&apos;" Label="Configuration">
+        <ConfigurationType>StaticLibrary</ConfigurationType>
+        <UseDebugLibraries>false</UseDebugLibraries>
+        <PlatformToolset>v140</PlatformToolset>
+        <WholeProgramOptimization>true</WholeProgramOptimization>
+        <CharacterSet>Unicode</CharacterSet>
+    </PropertyGroup>
+    <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+    <ImportGroup Label="ExtensionSettings"/>
+    <ImportGroup Label="Shared"/>
+    <ImportGroup Label="PropertySheets" Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">
+        <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists(&apos;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&apos;)" Label="LocalAppDataPlatform"/>
+    </ImportGroup>
+    <ImportGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;" Label="PropertySheets">
+        <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists(&apos;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&apos;)" Label="LocalAppDataPlatform"/>
+    </ImportGroup>
+    <ImportGroup Label="PropertySheets" Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">
+        <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists(&apos;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&apos;)" Label="LocalAppDataPlatform"/>
+    </ImportGroup>
+    <ImportGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;" Label="PropertySheets">
+        <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists(&apos;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&apos;)" Label="LocalAppDataPlatform"/>
+    </ImportGroup>
+    <ImportGroup Label="PropertySheets" Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|x64&apos;">
+        <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists(&apos;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&apos;)" Label="LocalAppDataPlatform"/>
+    </ImportGroup>
+    <ImportGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|x64&apos;" Label="PropertySheets">
+        <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists(&apos;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&apos;)" Label="LocalAppDataPlatform"/>
+    </ImportGroup>
+    <ImportGroup Label="PropertySheets" Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;">
+        <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists(&apos;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&apos;)" Label="LocalAppDataPlatform"/>
+    </ImportGroup>
+    <ImportGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|x64&apos;" Label="PropertySheets">
+        <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists(&apos;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&apos;)" Label="LocalAppDataPlatform"/>
+    </ImportGroup>
+    <PropertyGroup Label="UserMacros"/>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">
+        <OutDir>..\Bin_Debug\</OutDir>
+        <IncludePath>$(SolutionDir)External\;$(IncludePath)</IncludePath>
+        <LibraryPath>$(SolutionDir)Bin_Debug\;$(LibraryPath)</LibraryPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">
+        <OutDir>..\Bin_Debug\</OutDir>
+        <IncludePath>$(SolutionDir)External\;$(IncludePath)</IncludePath>
+        <LibraryPath>$(SolutionDir)Bin_Debug\;$(LibraryPath)</LibraryPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">
+        <OutDir>..\Bin\</OutDir>
+        <IncludePath>$(SolutionDir)External\;$(IncludePath)</IncludePath>
+        <LibraryPath>$(SolutionDir)Bin\;$(LibraryPath)</LibraryPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">
+        <OutDir>..\Bin\</OutDir>
+        <IncludePath>$(SolutionDir)External\;$(IncludePath)</IncludePath>
+        <LibraryPath>$(SolutionDir)Bin\;$(LibraryPath)</LibraryPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|x64&apos;">
+        <OutDir>..\Bin64_Debug\</OutDir>
+        <IncludePath>$(SolutionDir)External\;$(IncludePath)</IncludePath>
+        <LibraryPath>$(SolutionDir)Bin64_Debug\;$(LibraryPath)</LibraryPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;">
+        <OutDir>..\Bin64\</OutDir>
+        <IncludePath>$(SolutionDir)External\;$(IncludePath)</IncludePath>
+        <LibraryPath>$(SolutionDir)Bin64\;$(LibraryPath)</LibraryPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|x64&apos;">
+        <OutDir>..\Bin64_Debug\</OutDir>
+        <IncludePath>$(SolutionDir)External\;$(IncludePath)</IncludePath>
+        <LibraryPath>$(SolutionDir)Bin64_Debug\;$(LibraryPath)</LibraryPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|x64&apos;">
+        <OutDir>..\Bin64\</OutDir>
+        <IncludePath>$(SolutionDir)External\;$(IncludePath)</IncludePath>
+        <LibraryPath>$(SolutionDir)Bin64\;$(LibraryPath)</LibraryPath>
+    </PropertyGroup>
+    <ItemDefinitionGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">
+        <ClCompile>
+            <PrecompiledHeader/>
+            <WarningLevel>Level3</WarningLevel>
+            <Optimization>Disabled</Optimization>
+            <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+            <AdditionalIncludeDirectories>..\Engine\;..\External\Detour\Include\;..\External\FBXSDK\include\</AdditionalIncludeDirectories>
+        </ClCompile>
+        <Link>
+            <SubSystem>Windows</SubSystem>
+        </Link>
+    </ItemDefinitionGroup>
+    <ItemDefinitionGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">
+        <ClCompile>
+            <PrecompiledHeader/>
+            <WarningLevel>Level3</WarningLevel>
+            <Optimization>Disabled</Optimization>
+            <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+            <AdditionalIncludeDirectories>..\Engine\;..\External\Detour\Include\;..\External\FBXSDK\include\</AdditionalIncludeDirectories>
+        </ClCompile>
+        <Link>
+            <SubSystem>Windows</SubSystem>
+        </Link>
+    </ItemDefinitionGroup>
+    <ItemDefinitionGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|x64&apos;">
+        <ClCompile>
+            <PrecompiledHeader/>
+            <WarningLevel>Level3</WarningLevel>
+            <Optimization>Disabled</Optimization>
+            <PreprocessorDefinitions>WIN64;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+            <AdditionalIncludeDirectories>..\Engine\;..\External\Detour\Include\;..\External\FBXSDK\include\</AdditionalIncludeDirectories>
+        </ClCompile>
+        <Link>
+            <SubSystem>Windows</SubSystem>
+        </Link>
+    </ItemDefinitionGroup>
+    <ItemDefinitionGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|x64&apos;">
+        <ClCompile>
+            <PrecompiledHeader/>
+            <WarningLevel>Level3</WarningLevel>
+            <Optimization>Disabled</Optimization>
+            <PreprocessorDefinitions>WIN64;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+            <AdditionalIncludeDirectories>..\Engine\;..\External\Detour\Include\;..\External\FBXSDK\include\</AdditionalIncludeDirectories>
+        </ClCompile>
+        <Link>
+            <SubSystem>Windows</SubSystem>
+        </Link>
+    </ItemDefinitionGroup>
+    <ItemDefinitionGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">
+        <ClCompile>
+            <WarningLevel>Level3</WarningLevel>
+            <PrecompiledHeader/>
+            <Optimization>MaxSpeed</Optimization>
+            <FunctionLevelLinking>true</FunctionLevelLinking>
+            <IntrinsicFunctions>true</IntrinsicFunctions>
+            <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+            <AdditionalIncludeDirectories>..\Engine\;..\External\Detour\Include\;..\External\FBXSDK\include\</AdditionalIncludeDirectories>
+        </ClCompile>
+        <Link>
+            <SubSystem>Windows</SubSystem>
+            <EnableCOMDATFolding>true</EnableCOMDATFolding>
+            <OptimizeReferences>true</OptimizeReferences>
+        </Link>
+    </ItemDefinitionGroup>
+    <ItemDefinitionGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">
+        <ClCompile>
+            <WarningLevel>Level3</WarningLevel>
+            <PrecompiledHeader/>
+            <Optimization>MaxSpeed</Optimization>
+            <FunctionLevelLinking>true</FunctionLevelLinking>
+            <IntrinsicFunctions>true</IntrinsicFunctions>
+            <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+            <AdditionalIncludeDirectories>..\Engine\;..\External\Detour\Include\;..\External\FBXSDK\include\</AdditionalIncludeDirectories>
+        </ClCompile>
+        <Link>
+            <SubSystem>Windows</SubSystem>
+            <EnableCOMDATFolding>true</EnableCOMDATFolding>
+            <OptimizeReferences>true</OptimizeReferences>
+        </Link>
+    </ItemDefinitionGroup>
+    <ItemDefinitionGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;">
+        <ClCompile>
+            <WarningLevel>Level3</WarningLevel>
+            <PrecompiledHeader/>
+            <Optimization>MaxSpeed</Optimization>
+            <FunctionLevelLinking>true</FunctionLevelLinking>
+            <IntrinsicFunctions>true</IntrinsicFunctions>
+            <PreprocessorDefinitions>WIN64;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+            <AdditionalIncludeDirectories>..\Engine\;..\External\Detour\Include\;..\External\FBXSDK\include\</AdditionalIncludeDirectories>
+        </ClCompile>
+        <Link>
+            <SubSystem>Windows</SubSystem>
+            <EnableCOMDATFolding>true</EnableCOMDATFolding>
+            <OptimizeReferences>true</OptimizeReferences>
+        </Link>
+    </ItemDefinitionGroup>
+    <ItemDefinitionGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|x64&apos;">
+        <ClCompile>
+            <WarningLevel>Level3</WarningLevel>
+            <PrecompiledHeader/>
+            <Optimization>MaxSpeed</Optimization>
+            <FunctionLevelLinking>true</FunctionLevelLinking>
+            <IntrinsicFunctions>true</IntrinsicFunctions>
+            <PreprocessorDefinitions>WIN64;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+            <AdditionalIncludeDirectories>..\Engine\;..\External\Detour\Include\;..\External\FBXSDK\include\</AdditionalIncludeDirectories>
+        </ClCompile>
+        <Link>
+            <SubSystem>Windows</SubSystem>
+            <EnableCOMDATFolding>true</EnableCOMDATFolding>
+            <OptimizeReferences>true</OptimizeReferences>
+        </Link>
+    </ItemDefinitionGroup>
+    <ItemGroup>
+        <Text Include="ReadMe.txt"/>
+    </ItemGroup>
+    <ItemGroup>
+        <ClCompile Include="AbominationGuard.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="ArgoniteLeader.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="AsuraScript.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="AuraScript.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="BillBoardScript.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="BloodCreature.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="BloodEffect.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="BloodGolem.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="BurnOutScript.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="ButtonScript.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="CameraScript.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="ShockEarthScript.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="DefaultEffect.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="ElectricEffect.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="EnergyBall.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="LightMoveScript.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="MgrScript\EffectMgr.cpp"/>
+        <ClCompile Include="MgrScript\GameSystemMgr.cpp"/>
+        <ClCompile Include="MgrScript\ScriptMgr.cpp"/>
+        <ClCompile Include="MgrScript\SkillMgr.cpp"/>
+        <ClCompile Include="MgrScript\SoundMgr.cpp"/>
+        <ClCompile Include="MgrScript\UIMgrScript.cpp"/>
+        <ClCompile Include="MoveScript.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="ParentScript\BossScript.cpp"/>
+        <ClCompile Include="ParentScript\EffectScript.cpp"/>
+        <ClCompile Include="ParentScript\MonsterScript.cpp"/>
+        <ClCompile Include="ParentScript\PlayerScript.cpp"/>
+        <ClCompile Include="ParentScript\SkillScript.cpp"/>
+        <ClCompile Include="ShockWave.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="SunScript.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="TerrainScript.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="TestScript.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="ThirdCamScript.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="TileEffect.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="WarriorScript.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="WaterScript.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="WaveEffect.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Unity_Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+        <ClCompile Include="ScriptLib_0_Unity.cpp">
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+            <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+        </ClCompile>
+    </ItemGroup>
+    <ItemGroup>
+        <ClInclude Include="AbominationGuard.h"/>
+        <ClInclude Include="ArgoniteLeader.h"/>
+        <ClInclude Include="AsuraScript.h"/>
+        <ClInclude Include="AuraScript.h"/>
+        <ClInclude Include="BillBoardScript.h"/>
+        <ClInclude Include="BloodCreature.h"/>
+        <ClInclude Include="BloodEffect.h"/>
+        <ClInclude Include="BloodGolem.h"/>
+        <ClInclude Include="BurnOutScript.h"/>
+        <ClInclude Include="ButtonScript.h"/>
+        <ClInclude Include="CameraScript.h"/>
+        <ClInclude Include="ShockEarthScript.h"/>
+        <ClInclude Include="DefaultEffect.h"/>
+        <ClInclude Include="ElectricEffect.h"/>
+        <ClInclude Include="EnergyBall.h"/>
+        <ClInclude Include="LightMoveScript.h"/>
+        <ClInclude Include="MgrScript\EffectMgr.h"/>
+        <ClInclude Include="MgrScript\GameSystemMgr.h"/>
+        <ClInclude Include="MgrScript\ScriptMgr.h"/>
+        <ClInclude Include="MgrScript\SkillMgr.h"/>
+        <ClInclude Include="MgrScript\SoundMgr.h"/>
+        <ClInclude Include="MgrScript\STScript.h"/>
+        <ClInclude Include="MgrScript\UIMgrScript.h"/>
+        <ClInclude Include="MoveScript.h"/>
+        <ClInclude Include="ParentScript\BossScript.h"/>
+        <ClInclude Include="ParentScript\EffectScript.h"/>
+        <ClInclude Include="ParentScript\PlayerScript.h"/>
+        <ClInclude Include="ParentScript\SkillScript.h"/>
+        <ClInclude Include="ShockWave.h"/>
+        <ClInclude Include="SunScript.h"/>
+        <ClInclude Include="TerrainScript.h"/>
+        <ClInclude Include="TestScript.h"/>
+        <ClInclude Include="ThirdCamScript.h"/>
+        <ClInclude Include="TileEffect.h"/>
+        <ClInclude Include="WarriorScript.h"/>
+        <ClInclude Include="WaterScript.h"/>
+        <ClInclude Include="WaveEffect.h"/>
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Engine\Engine.vcxproj">
+            <Project>{d67d0d15-70d1-44eb-8760-f817c4801a98}</Project>
+        </ProjectReference>
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="cpp.hint"/>
+    </ItemGroup>
+    <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+    <ImportGroup Label="ExtensionTargets"/>
+</Project>

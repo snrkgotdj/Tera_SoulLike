@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ScriptCode">
+      <UniqueIdentifier>{e774ac00-ca49-4fe3-8193-c9f58c30302b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\MgrScript">
+      <UniqueIdentifier>{e59743ab-a5bf-4d9c-900d-74a401ffb2d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\99. Test">
+      <UniqueIdentifier>{c1503399-0b61-4df5-9ab5-847c82f7451f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\01. WaterScript">
+      <UniqueIdentifier>{e2f8033e-ea35-4575-9d2d-9aa94b041d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\02. MoveScript">
+      <UniqueIdentifier>{ed756be9-b9b9-4838-94e6-1123e63f241c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\00. Object">
+      <UniqueIdentifier>{eef3d6de-137a-4869-89a4-635faa3faa63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\00. Object\00. Monster">
+      <UniqueIdentifier>{a4d3ae7b-4959-47ad-93c0-2ed41ab99039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\00. Object\01. Player">
+      <UniqueIdentifier>{290ea5a2-7c83-48b5-9899-c40798e44aef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\04. CamScript">
+      <UniqueIdentifier>{acbc7905-ee1b-440d-accc-12211fcbd1d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\00. Object\01. Player\00. Warrior">
+      <UniqueIdentifier>{f87d26fe-392a-44b8-8dbe-ffcd493fb386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\05. Skill">
+      <UniqueIdentifier>{2f6cab9e-c5e4-48d2-b36c-6c172dd6139d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\06. Effect">
+      <UniqueIdentifier>{288a0c5e-712f-47fe-8db5-2567fbd525e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\05. Skill\00. EnergyBall">
+      <UniqueIdentifier>{be88ea3d-83a5-4f74-aa3c-7c80da20263c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\06. Effect\00. ElectricEffect">
+      <UniqueIdentifier>{20d9e2cc-1699-4a22-986c-f4f8c4df153f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\06. Effect\01. BloodEffect">
+      <UniqueIdentifier>{41bee258-5ef9-4724-8234-2af086e08463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\MgrScript\02. EffectMgr">
+      <UniqueIdentifier>{88f7b7f8-2970-4e2a-9738-ba87e24330f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\MgrScript\01. SkillMgr">
+      <UniqueIdentifier>{4fffbc85-ac00-4801-a193-e7d4c21f6608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\MgrScript\00. GameSystem">
+      <UniqueIdentifier>{54a17f5a-2a81-4592-99fc-c021ac85bee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\00. Object\02. Boss">
+      <UniqueIdentifier>{305846d1-fc5c-4a68-8cfb-3e1ecc62b349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\00. Object\02. Boss\00. Asura">
+      <UniqueIdentifier>{95312902-3305-4185-bdbd-87e2c98d8fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\05. Skill\01. ShockWave">
+      <UniqueIdentifier>{6b1dff78-23db-49e6-aeaf-1f91f5e1c6ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\00. Object\01. Player\01. ArgoniteLeader">
+      <UniqueIdentifier>{9657b165-f3ae-4eec-b7ba-cb658c0d217e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\06. Effect\02. DefaultEffect">
+      <UniqueIdentifier>{bdbe2b47-6f86-4d65-ae1e-b49a5be7c45d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\06. Effect\03. TileEffect">
+      <UniqueIdentifier>{dbe9b24c-34f0-4836-bdf7-3369b73648be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\00. Object\00. Monster\00. BloodGolem">
+      <UniqueIdentifier>{9ba34c8c-f1ce-42a1-a5ff-488e817046bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\00. Object\00. Monster\01. BloodCreature">
+      <UniqueIdentifier>{e62e9776-d0fe-4cec-8389-b75e1713bd58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\00. Object\00. Monster\02. AbominationGuard">
+      <UniqueIdentifier>{894cc07e-c400-40fa-ae5b-3bc23bb6740e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\06. Effect\04. BurnOutScript">
+      <UniqueIdentifier>{010c1178-c3c4-41bb-830f-c7482ac566ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\MgrScript\03. SoundMgr">
+      <UniqueIdentifier>{b9587794-05f1-4d62-8409-afd584e41352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\05. Skill\02. ShockEarth">
+      <UniqueIdentifier>{3cfa4f2c-18de-414a-ac8c-754de8763b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\05. Skill\03. SunScript">
+      <UniqueIdentifier>{60244cb1-4b66-4002-8c94-910bb3e954c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ButtonScript.cpp">
+      <Filter>ScriptCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainScript.cpp">
+      <Filter>ScriptCode</Filter>
+    </ClCompile>
+    <ClCompile Include="MgrScript\UIMgrScript.cpp">
+      <Filter>ScriptCode\MgrScript</Filter>
+    </ClCompile>
+    <ClCompile Include="MgrScript\ScriptMgr.cpp">
+      <Filter>ScriptCode\MgrScript</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScript.cpp">
+      <Filter>ScriptCode\99. Test</Filter>
+    </ClCompile>
+    <ClCompile Include="BillBoardScript.cpp">
+      <Filter>ScriptCode</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterScript.cpp">
+      <Filter>ScriptCode\01. WaterScript</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveScript.cpp">
+      <Filter>ScriptCode\02. MoveScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraScript.cpp">
+      <Filter>ScriptCode\04. CamScript</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdCamScript.cpp">
+      <Filter>ScriptCode\04. CamScript</Filter>
+    </ClCompile>
+    <ClCompile Include="LightMoveScript.cpp">
+      <Filter>ScriptCode\00. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ParentScript\MonsterScript.cpp">
+      <Filter>ScriptCode\00. Object\00. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="WarriorScript.cpp">
+      <Filter>ScriptCode\00. Object\01. Player\00. Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="ParentScript\PlayerScript.cpp">
+      <Filter>ScriptCode\00. Object\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ParentScript\SkillScript.cpp">
+      <Filter>ScriptCode\05. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="ParentScript\EffectScript.cpp">
+      <Filter>ScriptCode\06. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EnergyBall.cpp">
+      <Filter>ScriptCode\05. Skill\00. EnergyBall</Filter>
+    </ClCompile>
+    <ClCompile Include="ArgoniteLeader.cpp">
+      <Filter>ScriptCode\00. Object\01. Player\01. ArgoniteLeader</Filter>
+    </ClCompile>
+    <ClCompile Include="ElectricEffect.cpp">
+      <Filter>ScriptCode\06. Effect\00. ElectricEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="MgrScript\SkillMgr.cpp">
+      <Filter>ScriptCode\MgrScript\01. SkillMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MgrScript\EffectMgr.cpp">
+      <Filter>ScriptCode\MgrScript\02. EffectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="BloodEffect.cpp">
+      <Filter>ScriptCode\06. Effect\01. BloodEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="AsuraScript.cpp">
+      <Filter>ScriptCode\00. Object\02. Boss\00. Asura</Filter>
+    </ClCompile>
+    <ClCompile Include="MgrScript\GameSystemMgr.cpp">
+      <Filter>ScriptCode\MgrScript\00. GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptLib_0_Unity.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ParentScript\BossScript.cpp">
+      <Filter>ScriptCode\00. Object\02. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="ShockWave.cpp">
+      <Filter>ScriptCode\05. Skill\01. ShockWave</Filter>
+    </ClCompile>
+    <ClCompile Include="AuraScript.cpp">
+      <Filter>ScriptCode\06. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultEffect.cpp">
+      <Filter>ScriptCode\06. Effect\02. DefaultEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="TileEffect.cpp">
+      <Filter>ScriptCode\06. Effect\03. TileEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="BloodGolem.cpp">
+      <Filter>ScriptCode\00. Object\00. Monster\00. BloodGolem</Filter>
+    </ClCompile>
+    <ClCompile Include="BloodCreature.cpp">
+      <Filter>ScriptCode\00. Object\00. Monster\01. BloodCreature</Filter>
+    </ClCompile>
+    <ClCompile Include="AbominationGuard.cpp">
+      <Filter>ScriptCode\00. Object\00. Monster\02. AbominationGuard</Filter>
+    </ClCompile>
+    <ClCompile Include="BurnOutScript.cpp">
+      <Filter>ScriptCode\06. Effect\04. BurnOutScript</Filter>
+    </ClCompile>
+    <ClCompile Include="MgrScript\SoundMgr.cpp">
+      <Filter>ScriptCode\MgrScript\03. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveEffect.cpp">
+      <Filter>ScriptCode\06. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ShockEarthScript.cpp">
+      <Filter>ScriptCode\05. Skill\02. ShockEarth</Filter>
+    </ClCompile>
+    <ClCompile Include="SunScript.cpp">
+      <Filter>ScriptCode\05. Skill\03. SunScript</Filter>
+    </ClCompile>
+    <ClCompile Include="LightBoom.cpp">
+      <Filter>ScriptCode\05. Skill\03. SunScript</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ButtonScript.h">
+      <Filter>ScriptCode</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainScript.h">
+      <Filter>ScriptCode</Filter>
+    </ClInclude>
+    <ClInclude Include="MgrScript\STScript.h">
+      <Filter>ScriptCode\MgrScript</Filter>
+    </ClInclude>
+    <ClInclude Include="MgrScript\UIMgrScript.h">
+      <Filter>ScriptCode\MgrScript</Filter>
+    </ClInclude>
+    <ClInclude Include="MgrScript\ScriptMgr.h">
+      <Filter>ScriptCode\MgrScript</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScript.h">
+      <Filter>ScriptCode\99. Test</Filter>
+    </ClInclude>
+    <ClInclude Include="BillBoardScript.h">
+      <Filter>ScriptCode</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterScript.h">
+      <Filter>ScriptCode\01. WaterScript</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveScript.h">
+      <Filter>ScriptCode\02. MoveScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraScript.h">
+      <Filter>ScriptCode\04. CamScript</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdCamScript.h">
+      <Filter>ScriptCode\04. CamScript</Filter>
+    </ClInclude>
+    <ClInclude Include="LightMoveScript.h">
+      <Filter>ScriptCode\00. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ParentScript\PlayerScript.h">
+      <Filter>ScriptCode\00. Object\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="WarriorScript.h">
+      <Filter>ScriptCode\00. Object\01. Player\00. Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="ParentScript\SkillScript.h">
+      <Filter>ScriptCode\05. Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="ParentScript\EffectScript.h">
+      <Filter>ScriptCode\06. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EnergyBall.h">
+      <Filter>ScriptCode\05. Skill\00. EnergyBall</Filter>
+    </ClInclude>
+    <ClInclude Include="ArgoniteLeader.h">
+      <Filter>ScriptCode\00. Object\01. Player\01. ArgoniteLeader</Filter>
+    </ClInclude>
+    <ClInclude Include="ElectricEffect.h">
+      <Filter>ScriptCode\06. Effect\00. ElectricEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="MgrScript\SkillMgr.h">
+      <Filter>ScriptCode\MgrScript\01. SkillMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MgrScript\EffectMgr.h">
+      <Filter>ScriptCode\MgrScript\02. EffectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="BloodEffect.h">
+      <Filter>ScriptCode\06. Effect\01. BloodEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="AsuraScript.h">
+      <Filter>ScriptCode\00. Object\02. Boss\00. Asura</Filter>
+    </ClInclude>
+    <ClInclude Include="MgrScript\GameSystemMgr.h">
+      <Filter>ScriptCode\MgrScript\00. GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ParentScript\BossScript.h">
+      <Filter>ScriptCode\00. Object\02. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="ShockWave.h">
+      <Filter>ScriptCode\05. Skill\01. ShockWave</Filter>
+    </ClInclude>
+    <ClInclude Include="AuraScript.h">
+      <Filter>ScriptCode\06. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultEffect.h">
+      <Filter>ScriptCode\06. Effect\02. DefaultEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="TileEffect.h">
+      <Filter>ScriptCode\06. Effect\03. TileEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="BloodGolem.h">
+      <Filter>ScriptCode\00. Object\00. Monster\00. BloodGolem</Filter>
+    </ClInclude>
+    <ClInclude Include="BloodCreature.h">
+      <Filter>ScriptCode\00. Object\00. Monster\01. BloodCreature</Filter>
+    </ClInclude>
+    <ClInclude Include="AbominationGuard.h">
+      <Filter>ScriptCode\00. Object\00. Monster\02. AbominationGuard</Filter>
+    </ClInclude>
+    <ClInclude Include="BurnOutScript.h">
+      <Filter>ScriptCode\06. Effect\04. BurnOutScript</Filter>
+    </ClInclude>
+    <ClInclude Include="MgrScript\SoundMgr.h">
+      <Filter>ScriptCode\MgrScript\03. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveEffect.h">
+      <Filter>ScriptCode\06. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ShockEarthScript.h">
+      <Filter>ScriptCode\05. Skill\02. ShockEarth</Filter>
+    </ClInclude>
+    <ClInclude Include="SunScript.h">
+      <Filter>ScriptCode\05. Skill\03. SunScript</Filter>
+    </ClInclude>
+    <ClInclude Include="LightBoom.h">
+      <Filter>ScriptCode\05. Skill\03. SunScript</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
